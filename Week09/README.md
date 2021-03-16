@@ -112,11 +112,10 @@
 
 对分类变量做onehot对结果有第一定的提升，鉴于拿到的数据本身就是onehot之后的，就不费力去还原one了。
 
-<font color="red">特征选择提升有限，最好的提升值为：0.0007400000000000184，【去除四个特征：('discrete_purpose_1_one_hot',  'discrete_purpose_5_one_hot', 'discrete_emp_length_8_one_hot', 'discrete_sub_grade_6_one_hot')】</font>
+```diff
+- 特征选择提升有限，最好的提升值为：0.0007400000000000184，【去除四个特征：('discrete_purpose_1_one_hot',  'discrete_purpose_5_one_hot', 'discrete_emp_length_8_one_hot', 'discrete_sub_grade_6_one_hot')】
 
-<font color="red">应该选用更好的特征创造或特征提取来寻找高级特征。</font>
+- 应该选用更好的特征创造或特征提取来寻找高级特征。
 
-<font color="red">这要依赖对数据经EDA，鉴于时间有限，留待以后优化。</font>
-
-
-
+- 这要依赖对数据经EDA，鉴于时间有限，留待以后优化。
+```
